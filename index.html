@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #about img {
+            margin-bottom: 20px;
+        }
+
+	/* Sticky Navigation Bar */
+body {
+  position: relative;
+}
+
+#navbar {
+  z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+  cursor: pointer;
+  padding: 15px 20px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+    </style>
+</head>
+<body>
+
+<!-- Sticky Navigation Bar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h2 class="display-4">About</h2>
+            <div class="my-4">
+                <img src="images/about/1.jpg" alt="Profile Picture" class="rounded-circle border border-dark img-fluid" style="width: 150px; height: 150px;">
+            </div>
+            <div class="col-md-8 mx-auto">
+                <p class="lead">A skilled Data Analyst with a strong background in leveraging Excel, Python, MySQL, and Power BI to extract actionable insights from complex datasets. I possess a solid understanding of data management, statistical analysis, and data visualization techniques, enabling data-driven decision-making in fast-paced environments.</p>
+                <p class="lead">Experienced in transforming raw data into meaningful reports and dashboards, I am adept at identifying trends, solving complex problems, and optimizing processes to drive business performance. I am committed to continuous learning and applying innovative solutions to enhance data accuracy and efficiency.
+
+</p>
+            </div>
+        </div>
+    </section>
+
+<section id="projects" class="py-5 text-center">
+    <div class="container">
+        <h2 class="display-4 font-weight-bold mb-5">Projects</h2>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="images/projects/1.jpg" class="card-img-top" alt="Project 1 Image">
+                    <div class="card-body">
+                        <h5 class="card-title"> Sales Analysis Using Excel</h5>
+                        <p class="card-text">In this project, I utilized Excel to perform comprehensive data analysis on sales data. The process involved data cleaning, using advanced functions of pivot tables, and complex formulas to organize and analyse the data. I conducted statistical analysis to identify trends, patterns, and key insights, which were then visualized through charts and graphs. The final deliverable was a detailed report with actionable recommendations based on the findings.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="images/projects/2.jpg" class="card-img-top" alt="Project 2 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Customer Churn Analysis Using MySQL & Excel</h5>
+                        <p class="card-text">In this project, I utilized MySQL for data cleaning and processing, handling a churn analysis for a telecom dataset. I wrote SQL queries to clean, filter, and transform the raw data, ensuring accuracy and consistency. Complex data processing tasks, such as joins, aggregations, and calculations, were performed directly in MySQL to prepare the data for analysis. Once the data was processed, it was exported to Excel, where I leveraged Excel's powerful tools for visualization, pivot and further analysis. Using pivot tables, charts, and graphs, I visualized the key insights and trends, presenting them in a clear, actionable report.</p>
+                    </div>
+                     
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="images/projects/3.png" class="card-img-top" alt="Project 3 Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Analysis Using Power BI</h5>
+                        <p class="card-text">In this project, I leveraged Power BI to manage the entire data analysis process, from data cleaning and processing to visualization and reporting. Starting with product data, I used Power BI’s data transformation tools to clean and prepare the data, performing tasks like filtering, merging, and creating calculated columns. Once the data was processed, I designed interactive dashboards and visualizations to uncover key insights and trends. The final deliverable was a dynamic, visually engaging report that allowed stakeholders to explore the data and make informed decisions with ease.</p>
+                    </div>
+                     
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="py-5 text-center">
+    <div class="container">
+        <h2 class="display-4 font-weight-bold mb-5">Skills</h2>
+        <div class="row">
+            <!-- Skill 1: Python -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="skill-item">
+                    <img src="images/skills/1.webp" alt="Python" class="img-fluid mb-3" style="width: 100px;">
+                    <h5>Python</h5>
+                    <p>Leveraging Python for data analysis, I efficiently process and analyze large datasets using libraries like Pandas, NumPy, and Matplotlib. My expertise includes automating data workflows, performing statistical analysis, and creating data visualizations that uncover key insights and support data-driven decisions.</p>
+                    <a href="#" class="text-primary">Link to course or bootcamp</a>
+                </div>
+            </div>
+            <!-- Skill 2: Data Visualization -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="skill-item">
+                    <img src="images/skills/2.png" alt="Data Visualization" class="img-fluid mb-3" style="width: 100px;">
+                    <h5>Data Visualization</h5>
+                    <p>Skilled in transforming complex data into clear, actionable visualizations, I use tools like Power BI, Python (Matplotlib, Seaborn), and Excel to create interactive dashboards and charts. My visualizations effectively communicate insights, making data accessible and impactful for stakeholders.</p>
+                    <a href="#" class="text-primary">Link to course or bootcamp</a>
+                </div>
+            </div>
+            <!-- Skill 3: SQL -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="skill-item">
+                    <img src="images/skills/3.jpg" alt="SQL" class="img-fluid mb-3" style="width: 100px;">
+                    <h5>MYSQL</h5>
+                    <p>With strong proficiency in MySQL, I manage and query relational databases to extract and analyze data. My expertise includes writing optimized queries, performing data joins, and ensuring data accuracy, all of which contribute to effective data analysis and reporting.</p>
+                    <a href="#" class="text-primary">Link to course or bootcamp</a>
+                </div>
+            </div>
+            <!-- Skill 4: Data Storytelling -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="skill-item">
+                    <img src="images/skills/4.jpg" alt="Data Storytelling" class="img-fluid mb-3" style="width: 100px;">
+                    <h5>Data Storytelling</h5>
+                    <p>I excel in transforming data into compelling narratives that drive action. By combining analytical insights with clear visualizations, I craft stories that communicate complex data in an engaging and understandable way, ensuring stakeholders grasp the key messages and make informed decisions.</p>
+                    <a href="#" class="text-primary">Link to course or bootcamp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+		<!-- Contact Me Section -->
+<section id="contact" class="contact-me py-5 bg-dark text-white">
+  <div class="container text-center">
+    <h2 class="mb-4">Contact Me</h2>
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-4">
+        <div class="d-flex justify-content-center align-items-center">
+          <img src="icons/email.webp" alt="Email Icon" class="img-fluid mr-2" style="width: 30px; height: 30px;">
+          <p class="mb-0">ademolaidris.ope@gmail.com</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="d-flex justify-content-center align-items-center">
+          <img src="icons/phone.webp" alt="Phone Icon" class="img-fluid mr-2" style="width: 30px; height: 30px;">
+          <p class="mb-0">+2349065986956</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-2 mb-3">
+        <a href="https://linkedin.com/in/idris-ademola-6001b5209" target="_blank">
+          <img src="icons/linkedin.png" alt="LinkedIn" class="img-fluid mb-2" style="width: 50px; height: 50px;">
+          <p class="text-white">LinkedIn</p>
+        </a>
+      </div>
+      <div class="col-md-2 mb-3">
+        <a href="#" target="_blank">
+          <img src="icons/twitter.avif" alt="Twitter" class="img-fluid mb-2" style="width: 50px; height: 50px;">
+          <p class="text-white">Twitter</p>
+        </a>
+      </div>
+      <div class="col-md-2 mb-3">
+        <a href="#" target="_blank">
+          <img src="icons/whatsapp.webp" alt="whatsapp" class="img-fluid mb-2" style="width: 50px; height: 50px;">
+          <p class="text-white">whatsapp</p>
+        </a>
+      </div>
+       
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
